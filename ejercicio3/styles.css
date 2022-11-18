@@ -1,0 +1,24 @@
+form{
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 0 auto;
+    background: linear-gradient(#bd09b7, #6b4cf5);
+    box-shadow: 3px 10px 5px 5px black;
+    color: white
+}
+
+.margen{
+    padding: 7px;
+    width: 100%;
+}
+
+#boton{
+    padding: 5px 15px 5px 15px;
+    margin-left: 60%;
+}
+@media (max-width: 500px) {
+    form{
+        width: 100%;
+    }
+}

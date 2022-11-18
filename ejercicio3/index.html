@@ -7,26 +7,35 @@
     <title>Login</title>
 </head>
 <body>
-    <link rel="stylesheet" href="styles.css">
-    <h1>Login</h1>
-    <div>
-        <label for="email">Email</label>
-        <input type="email" name="email" id="email">
-    </div>
-    <div>
-        <label for="password">Password</label>
-        <input type="password" name="password" id="password">
-    </div>
-    <div>
-        <select name="género" id="género">
-            <option value="Hombre" selected>Hombre</option>
-            <option value="Mujer">Mujer</option>
-        </select>
-    </div>
-    <div id="margen">
-        <input type="checkbox" id="terminos" name="terminos">
-        <label for="terminos">Acepto los términos</label>
-    </div>
-    <input type="submit" value = "ingresar">
+    <form >
+        <link rel="stylesheet" href="styles.css">
+        <h1>Login</h1>
+        <div>
+            <label for="email">Email</label>
+            <br>
+            <input class="margen" type="email" name="email" id="email">
+            <br>
+        </div>
+        <div>
+            <label for="password">Password</label>
+            <br>
+            <input class="margen" type="password" name="password" id="password">
+            <br>
+        </div>
+        <div>
+            <label for="genero">Género</label>
+            <br>
+            <select class="margen" name="género" id="género">
+                <option value="Hombre" selected>Hombre</option>
+                <option value="Mujer">Mujer</option>
+            </select>
+            <br>
+        </div>
+        <div>
+            <input  type="checkbox" id="terminos" name="terminos">
+            <label for="terminos">Acepto los términos</label>
+        </div>
+        <input id="boton" type="submit" value = "ingresar">
+    </form>
 </body>
 </html>
