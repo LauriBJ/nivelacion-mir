@@ -1,8 +1,8 @@
 function calcularColor(num){
-    var color;
+    let color;
     if (num ===1){
         color = "negro";
-    }else if (num ==2){
+    }else if (num ===2){
         color = "blanco";
     }else if (num ===3){
         color = "rojo";
